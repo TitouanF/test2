@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr">
+  <file id="validators.fr">
+    <unit id="EUSk19m" name="remplissez">
+      <notes>
+        <note category="file-source" priority="1">test2\src\Entity\Season.php:0</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>remplissez</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="TdLhlyP" name="The password fields must match.">
+      <notes>
+        <note category="file-source" priority="1">test2\src\Form\RegisterType.php:18</note>
+        <note category="state" priority="1">new</note>
+      </notes>
+      <segment>
+        <source>The password fields must match.</source>
+        <target></target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

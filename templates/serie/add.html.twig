@@ -1,0 +1,9 @@
+{% extends 'layout.html.twig' %}
+{%  block main %}
+    <h2>ajouter une série</h2>
+    {{ form_start(listeForm) }}
+    {{ form_widget(listeForm) }}
+    <button type="submit">submit</button>
+    {{ form_end(listeForm) }}
+{%  endblock %}
+{%  block title %} le formulaire {% endblock %}

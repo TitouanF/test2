@@ -1,0 +1,5 @@
+{% extends 'layout.html.twig' %}
+{% block main %}
+    {{ series|join(',') }}
+<h1>{{ 'home.welcome' | trans }}</h1>
+{% endblock %}

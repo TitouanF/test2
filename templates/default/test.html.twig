@@ -1,0 +1,13 @@
+<h1>test twig</h1>
+{% set yo ="bla" %}
+{# affiche la variable #}
+<ps> {{ yo }}</ps>
+{% set colors = ['red','blue','brown','black'] %}
+<ul>
+{% for color in colors %}
+    {% if color != 'brown' %}
+        <li>{{ color|capitalize }}</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+

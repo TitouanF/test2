@@ -1,0 +1,10 @@
+{% extends 'layout.html.twig' %}
+{%  block main %}
+    <h2>{{ "home.serie" |trans }}</h2>
+            <div>
+                {{ liste.id }}
+                <P>{{ liste.label }}</P>
+            </div>
+    </div>
+{%  endblock %}
+{%  block title %} {{ "home.serie" |trans }} {% endblock %}
